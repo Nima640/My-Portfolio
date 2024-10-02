@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='about'>
         <div className="about-title">
-            <hi>About me</hi>
+            <h1>About me</h1>
             <img src={theme_pattern} alt="" />
         </div>
         <div className="about-section">
@@ -41,6 +41,20 @@ const About = () => {
                 <p>YEARS OF EXPERIENCE</p>
 
             </div>
+            <hr />
+            <div className="about-achievement">
+                <h1>90+</h1>
+                <p>PROJECT COMPLETED</p>
+            </div>
+            <hr />
+            <div className="about-achievement">
+                <h1>90+</h1>
+                <p>HAPPY CLIENTS</p>
+            </div>
+            
+
+
+            
         </div>
 
       
